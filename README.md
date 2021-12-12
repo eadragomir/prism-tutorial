@@ -28,6 +28,8 @@ curl http://127.0.0.1:4010/check-in/passengers?__example=not-checked-in-passenge
 
 ## Proxy mode
 
+Link: https://11sigma.com/blog/2019/11/22/1on1-with-design-first-contract-testing-your-openapis/
+
 prism mock -p 4011 reference/petstore/petstore.yaml
 
 curl localhost:4011/pets/1
