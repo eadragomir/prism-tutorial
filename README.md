@@ -32,6 +32,7 @@ prism mock -p 4011 reference/petstore/petstore.yaml
 curl localhost:4011/pets/1
 
 prism proxy -p 4010 --errors reference/petstore/petstore_expected.yaml http://localhost:4011
+
 curl http://localhost:4010/pets/1
 
 
