@@ -1,5 +1,7 @@
 # Prism Tutorial
 
+Link first article: https://11sigma.com/blog/2019/10/11/how-to-mock-http-servers-with-stoplight-prism-openapi/
+
 This repository serves as a base for a [Prism tutorial published on 11sigma.com blog](https://11sigma.com/blog/2019-10-11--prism-tutorial/).
 
 # Install PRISM
