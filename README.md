@@ -29,6 +29,7 @@ curl http://127.0.0.1:4010/check-in/passengers?__example=not-checked-in-passenge
 ## Proxy mode
 
 prism mock -p 4011 reference/petstore/petstore.yaml
+
 curl localhost:4011/pets/1
 
 prism proxy -p 4010 --errors reference/petstore/petstore_expected.yaml http://localhost:4011
